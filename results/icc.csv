@@ -1,0 +1,10 @@
+label,outcome,n_obs,n_persons,between_var,within_var,icc
+ESM tense/anxious share,esm_stress,2283,63,0.01336,0.06204,0.1772
+ESM positive mood share,esm_positive,2283,63,0.03905,0.1296,0.2315
+ESM tired share,esm_tired,2283,63,0.0119,0.09185,0.1147
+Fitbit sleep duration (h),sleep_h,2308,57,0.5386,1.5,0.2642
+Fitbit sleep efficiency,sleep_eff10,2308,57,0.3422,0.08868,0.7942
+Fitbit sleep midpoint,sleep_midpoint_h,2308,57,2.424,1.871,0.5644
+Fitbit steps (1000/day),steps_k,2840,61,10.36,18.46,0.3595
+Fitbit resting HR,rhr,2779,61,48.39,5.753,0.8937
+Fitbit stress score,fitbit_stress_score,1212,32,20.59,26.75,0.4349

@@ -1,0 +1,4 @@
+outcome,slope,lr_stat,p_mixture,slope_var,slope_sd,n_obs,fixed_slope
+esm_stress,sleep_h_wp,1.045,0.4498,0.000211,0.01453,1649,-0.001206
+esm_positive,sleep_h_wp,7.788,0.01281,0.001059,0.03255,1649,0.03108
+esm_tired,sleep_h_wp,19.95,2.727e-05,0.001381,0.03716,1649,-0.03286

@@ -1,0 +1,10 @@
+outcome,model,rho1,n_pairs,ci_low,ci_high
+esm_stress,main,0.0918,1340,0.03844,0.1446
+esm_stress,with lagged outcome,-0.01678,1262,-0.07189,0.03844
+esm_stress,GEE AR(1) working corr.,0.3416,,,
+esm_positive,main,0.1615,1340,0.1088,0.2132
+esm_positive,with lagged outcome,0.01246,1262,-0.04275,0.0676
+esm_positive,GEE AR(1) working corr.,0.6714,,,
+esm_tired,main,0.1016,1340,0.04834,0.1543
+esm_tired,with lagged outcome,0.006645,1262,-0.04855,0.06181
+esm_tired,GEE AR(1) working corr.,0.2069,,,

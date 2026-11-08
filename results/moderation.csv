@@ -1,0 +1,13 @@
+outcome,moderator,term,estimate,se,ci_low,ci_high,p,n_obs,n_persons,random_slope_var
+esm_stress,IPIP neuroticism (z),sleep_h_wp,0.006082,0.005644,-0.004981,0.01714,0.2812,1394,44,3.466e-05
+esm_stress,IPIP neuroticism (z),ipip_neuroticism_z,0.02928,0.02045,-0.0108,0.06936,0.1521,1394,44,3.466e-05
+esm_stress,IPIP neuroticism (z),sleep_h_wp:ipip_neuroticism_z,-0.01048,0.005459,-0.02117,0.0002237,0.05499,1394,44,3.466e-05
+esm_positive,IPIP neuroticism (z),sleep_h_wp,0.02197,0.009368,0.003612,0.04033,0.019,1394,44,0.0008128
+esm_positive,IPIP neuroticism (z),ipip_neuroticism_z,-0.05295,0.03552,-0.1226,0.01667,0.1361,1394,44,0.0008128
+esm_positive,IPIP neuroticism (z),sleep_h_wp:ipip_neuroticism_z,0.0004628,0.009499,-0.01816,0.01908,0.9611,1394,44,0.0008128
+esm_stress,mean weekly S-STAI (z),sleep_h_wp,0.002922,0.00652,-0.009857,0.0157,0.6541,1485,47,0.0003464
+esm_stress,mean weekly S-STAI (z),stai_mean_z,0.04987,0.01641,0.01772,0.08203,0.002366,1485,47,0.0003464
+esm_stress,mean weekly S-STAI (z),sleep_h_wp:stai_mean_z,-0.003915,0.005934,-0.01555,0.007716,0.5094,1485,47,0.0003464
+esm_positive,mean weekly S-STAI (z),sleep_h_wp,0.02705,0.009204,0.009015,0.04509,0.003288,1485,47,0.0009301
+esm_positive,mean weekly S-STAI (z),stai_mean_z,-0.01816,0.03445,-0.08568,0.04936,0.5981,1485,47,0.0009301
+esm_positive,mean weekly S-STAI (z),sleep_h_wp:stai_mean_z,0.003038,0.008427,-0.01348,0.01955,0.7185,1485,47,0.0009301

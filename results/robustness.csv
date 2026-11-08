@@ -1,0 +1,73 @@
+variant,outcome,term,estimate,se,ci_low,ci_high,p,n_obs,n_persons
+main (complete case),esm_stress,sleep_h_wp,-0.001206,0.005757,-0.01249,0.01008,0.8341,1649,53
+main (complete case),esm_stress,sleep_h_bp,-0.0005523,0.02565,-0.05082,0.04972,0.9828,1649,53
+main (complete case),esm_stress,steps_k_lag1_wp,-0.0006606,0.001467,-0.003535,0.002214,0.6524,1649,53
+main (complete case),esm_stress,steps_k_lag1_bp,-0.001016,0.005959,-0.01269,0.01066,0.8646,1649,53
+sleep + steps only,esm_stress,sleep_h_wp,-0.0004587,0.005734,-0.0117,0.01078,0.9362,1661,53
+sleep + steps only,esm_stress,sleep_h_bp,-0.002604,0.02394,-0.04953,0.04432,0.9134,1661,53
+sleep + steps only,esm_stress,steps_k_lag1_wp,-0.0007881,0.001458,-0.003647,0.00207,0.5889,1661,53
+sleep + steps only,esm_stress,steps_k_lag1_bp,-0.002765,0.005168,-0.0129,0.007365,0.5926,1661,53
+exclude persons <30% compliance,esm_stress,sleep_h_wp,0.0004216,0.00611,-0.01155,0.0124,0.945,1472,35
+exclude persons <30% compliance,esm_stress,sleep_h_bp,-0.02879,0.0308,-0.08915,0.03157,0.3499,1472,35
+exclude persons <30% compliance,esm_stress,steps_k_lag1_wp,-0.002484,0.001502,-0.005427,0.0004597,0.09815,1472,35
+exclude persons <30% compliance,esm_stress,steps_k_lag1_bp,-0.01183,0.006604,-0.02477,0.001113,0.07321,1472,35
+days with >=2 answered prompts,esm_stress,sleep_h_wp,-0.0005345,0.005031,-0.01039,0.009326,0.9154,1307,51
+days with >=2 answered prompts,esm_stress,sleep_h_bp,0.003977,0.02031,-0.03582,0.04378,0.8447,1307,51
+days with >=2 answered prompts,esm_stress,steps_k_lag1_wp,-0.001246,0.001494,-0.004174,0.001682,0.4043,1307,51
+days with >=2 answered prompts,esm_stress,steps_k_lag1_bp,0.0001225,0.005001,-0.009679,0.009924,0.9805,1307,51
+GEE AR(1) working correlation,esm_stress,sleep_h_wp,0.0002098,0.004654,-0.008912,0.009332,0.964,1649,53
+GEE AR(1) working correlation,esm_stress,sleep_h_bp,-0.0142,0.0212,-0.05575,0.02735,0.503,1649,53
+GEE AR(1) working correlation,esm_stress,steps_k_lag1_wp,0.0003997,0.00137,-0.002285,0.003085,0.7705,1649,53
+GEE AR(1) working correlation,esm_stress,steps_k_lag1_bp,-0.004756,0.005466,-0.01547,0.005957,0.3842,1649,53
+main (complete case),esm_positive,sleep_h_wp,0.03108,0.00886,0.01372,0.04845,0.0004504,1649,53
+main (complete case),esm_positive,sleep_h_bp,0.0189,0.04063,-0.06072,0.09853,0.6417,1649,53
+main (complete case),esm_positive,steps_k_lag1_wp,-0.0008984,0.002035,-0.004888,0.003091,0.6589,1649,53
+main (complete case),esm_positive,steps_k_lag1_bp,-0.004794,0.01028,-0.02495,0.01536,0.6411,1649,53
+sleep + steps only,esm_positive,sleep_h_wp,0.02955,0.008801,0.0123,0.0468,0.0007855,1661,53
+sleep + steps only,esm_positive,sleep_h_bp,0.01737,0.03882,-0.05872,0.09346,0.6545,1661,53
+sleep + steps only,esm_positive,steps_k_lag1_wp,-0.0005781,0.00203,-0.004558,0.003401,0.7759,1661,53
+sleep + steps only,esm_positive,steps_k_lag1_bp,-0.005012,0.009214,-0.02307,0.01305,0.5865,1661,53
+exclude persons <30% compliance,esm_positive,sleep_h_wp,0.02683,0.009263,0.008673,0.04498,0.003776,1472,35
+exclude persons <30% compliance,esm_positive,sleep_h_bp,0.04604,0.05296,-0.05776,0.1498,0.3847,1472,35
+exclude persons <30% compliance,esm_positive,steps_k_lag1_wp,0.0004078,0.002156,-0.003818,0.004633,0.85,1472,35
+exclude persons <30% compliance,esm_positive,steps_k_lag1_bp,0.005366,0.01241,-0.01897,0.0297,0.6656,1472,35
+days with >=2 answered prompts,esm_positive,sleep_h_wp,0.02351,0.009382,0.005117,0.04189,0.01223,1307,51
+days with >=2 answered prompts,esm_positive,sleep_h_bp,0.03953,0.03965,-0.03818,0.1172,0.3188,1307,51
+days with >=2 answered prompts,esm_positive,steps_k_lag1_wp,0.000793,0.00218,-0.003479,0.005065,0.716,1307,51
+days with >=2 answered prompts,esm_positive,steps_k_lag1_bp,-0.009727,0.009902,-0.02913,0.009681,0.3259,1307,51
+GEE AR(1) working correlation,esm_positive,sleep_h_wp,0.02239,0.00976,0.003258,0.04152,0.02181,1649,53
+GEE AR(1) working correlation,esm_positive,sleep_h_bp,0.0315,0.03564,-0.03836,0.1014,0.3769,1649,53
+GEE AR(1) working correlation,esm_positive,steps_k_lag1_wp,-0.002412,0.00213,-0.006587,0.001764,0.2576,1649,53
+GEE AR(1) working correlation,esm_positive,steps_k_lag1_bp,-0.002604,0.008958,-0.02016,0.01495,0.7713,1649,53
+sleep = time in bed,esm_stress,sleep_h_wp,-0.0001123,0.005048,-0.01001,0.009781,0.9822,1654,53
+sleep = time in bed,esm_stress,sleep_h_bp,-0.001004,0.02164,-0.04341,0.0414,0.963,1654,53
+sleep = time in bed,esm_stress,steps_k_lag1_wp,-0.0006218,0.00147,-0.003502,0.002259,0.6722,1654,53
+sleep = time in bed,esm_stress,steps_k_lag1_bp,-0.0007945,0.00604,-0.01263,0.01104,0.8954,1654,53
+sleep = time in bed,esm_positive,sleep_h_wp,0.02517,0.007613,0.01025,0.04009,0.0009463,1654,53
+sleep = time in bed,esm_positive,sleep_h_bp,0.01604,0.03484,-0.05225,0.08433,0.6453,1654,53
+sleep = time in bed,esm_positive,steps_k_lag1_wp,-0.0007434,0.00204,-0.004742,0.003255,0.7155,1654,53
+sleep = time in bed,esm_positive,steps_k_lag1_bp,-0.00468,0.01044,-0.02514,0.01578,0.6539,1654,53
+only 'stages' sleep records,esm_stress,sleep_h_wp,-0.00211,0.006533,-0.01491,0.01069,0.7467,1613,52
+only 'stages' sleep records,esm_stress,sleep_h_bp,-0.005251,0.02762,-0.05939,0.04889,0.8492,1613,52
+only 'stages' sleep records,esm_stress,steps_k_lag1_wp,-0.0009603,0.00149,-0.00388,0.001959,0.5191,1613,52
+only 'stages' sleep records,esm_stress,steps_k_lag1_bp,-0.0009097,0.006174,-0.01301,0.01119,0.8829,1613,52
+only 'stages' sleep records,esm_positive,sleep_h_wp,0.03209,0.009227,0.014,0.05017,0.0005058,1613,52
+only 'stages' sleep records,esm_positive,sleep_h_bp,-0.008684,0.04418,-0.09527,0.0779,0.8442,1613,52
+only 'stages' sleep records,esm_positive,steps_k_lag1_wp,-0.0007963,0.002073,-0.004859,0.003267,0.7009,1613,52
+only 'stages' sleep records,esm_positive,steps_k_lag1_bp,-0.00715,0.0105,-0.02773,0.01343,0.4958,1613,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_stress,sleep_h_wp,-9.805e-05,0.007614,-0.01502,0.01483,0.9897,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_stress,sleep_h_bp,-0.006765,0.02973,-0.06503,0.0515,0.82,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_stress,steps_k_lag1_wp,-0.0005689,0.001564,-0.003634,0.002496,0.716,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_stress,steps_k_lag1_bp,-0.0009537,0.00585,-0.01242,0.01051,0.8705,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_positive,sleep_h_wp,0.03153,0.01081,0.01034,0.05271,0.003535,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_positive,sleep_h_bp,0.003551,0.05012,-0.09467,0.1018,0.9435,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_positive,steps_k_lag1_wp,-0.000234,0.002177,-0.0045,0.004033,0.9144,1510,52
+"strict rules: wear >=16 h, sleep 4-12 h",esm_positive,steps_k_lag1_bp,-0.006797,0.01047,-0.02732,0.01372,0.5161,1510,52
+multiple imputation of predictors (m=20),esm_stress,sleep_h_wp,-0.000428,0.005226,-0.01073,0.009871,0.9348,2283,63
+multiple imputation of predictors (m=20),esm_stress,sleep_h_bp,-0.003846,0.02419,-0.05135,0.04366,0.8737,2283,63
+multiple imputation of predictors (m=20),esm_stress,steps_k_lag1_wp,-0.0005949,0.001334,-0.003212,0.002022,0.6557,2283,63
+multiple imputation of predictors (m=20),esm_stress,steps_k_lag1_bp,-0.00552,0.005854,-0.01701,0.005971,0.346,2283,63
+multiple imputation of predictors (m=20),esm_positive,sleep_h_wp,0.0297,0.007172,0.01558,0.04381,4.528e-05,2283,63
+multiple imputation of predictors (m=20),esm_positive,sleep_h_bp,0.0175,0.03783,-0.05669,0.0917,0.6437,2283,63
+multiple imputation of predictors (m=20),esm_positive,steps_k_lag1_wp,9.789e-05,0.001897,-0.003624,0.00382,0.9589,2283,63
+multiple imputation of predictors (m=20),esm_positive,steps_k_lag1_bp,-0.007845,0.009336,-0.02615,0.01046,0.4008,2283,63

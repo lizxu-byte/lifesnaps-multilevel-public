@@ -1,0 +1,22 @@
+quantity,value
+participants in Fitbit daily CSV,71
+participants with >=1 scheduled mood prompt,63
+participants with >=1 answered mood prompt,63
+person-days in ESM periods,3986
+"valid wear days (>=10 h HR, >=100 steps)",2840
+valid main-sleep nights (3-15 h asleep),2308
+days with >=1 answered mood prompt,2283
+mood prompts scheduled (04:00-24:00),11474
+mood prompts answered,5034
+pooled ESM compliance,0.4387
+per-person compliance: mean,0.4354
+per-person compliance: SD,0.3356
+per-person compliance: median,0.4118
+per-person compliance: IQR low,0.1114
+per-person compliance: IQR high,0.8082
+share of persons with >=75% compliance,0.2857
+share of persons with <25% compliance,0.3968
+median answer latency (min),28
+main-sleep records ending on Fitbit dateOfSleep (%),100
+participants with IPIP,50
+participants with >=1 S-STAI,53

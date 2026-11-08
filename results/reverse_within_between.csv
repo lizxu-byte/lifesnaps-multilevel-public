@@ -1,0 +1,9 @@
+outcome,predictor,level,estimate,ci_low,ci_high,p
+tonight's sleep duration (h),ESM tense/anxious share today,within,-0.1369,-0.39,0.1162,0.2892
+tonight's sleep duration (h),ESM tense/anxious share today,between,-0.3785,-2.093,1.335,0.6651
+tonight's sleep efficiency (10 %-pts),ESM tense/anxious share today,within,0.07323,0.008195,0.1383,0.02732
+tonight's sleep efficiency (10 %-pts),ESM tense/anxious share today,between,0.3232,-0.9579,1.604,0.621
+tonight's sleep duration (h),ESM positive mood share today,within,-0.05468,-0.2341,0.1247,0.5503
+tonight's sleep duration (h),ESM positive mood share today,between,-0.07384,-1.045,0.8973,0.8815
+tonight's sleep efficiency (10 %-pts),ESM positive mood share today,within,-0.009958,-0.05567,0.03575,0.6694
+tonight's sleep efficiency (10 %-pts),ESM positive mood share today,between,0.2265,-0.5485,1.002,0.5667

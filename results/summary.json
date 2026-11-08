@@ -1,0 +1,48 @@
+{
+  "descriptives": {
+    "participants in Fitbit daily CSV": 71,
+    "participants with >=1 scheduled mood prompt": 63,
+    "participants with >=1 answered mood prompt": 63,
+    "person-days in ESM periods": 3986,
+    "valid wear days (>=10 h HR, >=100 steps)": 2840,
+    "valid main-sleep nights (3-15 h asleep)": 2308,
+    "days with >=1 answered mood prompt": 2283,
+    "mood prompts scheduled (04:00-24:00)": 11474,
+    "mood prompts answered": 5034,
+    "pooled ESM compliance": 0.4387310440997037,
+    "per-person compliance: mean": 0.43536515108178947,
+    "per-person compliance: SD": 0.33557621607381405,
+    "per-person compliance: median": 0.4117647058823529,
+    "per-person compliance: IQR low": 0.11140661938534278,
+    "per-person compliance: IQR high": 0.8081891512742576,
+    "share of persons with >=75% compliance": 0.2857142857142857,
+    "share of persons with <25% compliance": 0.3968253968253968,
+    "median answer latency (min)": 28.0,
+    "main-sleep records ending on Fitbit dateOfSleep (%)": 100.0,
+    "participants with IPIP": 50,
+    "participants with >=1 S-STAI": 53
+  },
+  "esm_days_per_person": {
+    "count": 63.0,
+    "mean": 36.23809523809524,
+    "std": 23.97963805970921,
+    "min": 1.0,
+    "25%": 14.5,
+    "50%": 40.0,
+    "75%": 60.5,
+    "max": 84.0
+  },
+  "sd_within_sleep_h": 1.2086274695390766,
+  "sd_between_sleep_h": 0.8571001254375542,
+  "compliance_by_week": {
+    "0": 0.568,
+    "1": 0.513,
+    "2": 0.472,
+    "3": 0.403,
+    "4": 0.403,
+    "5": 0.377,
+    "6": 0.37,
+    "7": 0.374,
+    "8": 0.397
+  }
+}

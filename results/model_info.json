@@ -1,0 +1,294 @@
+{
+  "main:esm_stress": {
+    "formula": "esm_stress ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week | re: ~ sleep_h_wp",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.013466089973575188,
+      "var[sleep_h_wp]": 0.00021099481082757895,
+      "cov[Group,sleep_h_wp]": -0.0005584943087645199,
+      "var[residual]": 0.058264209859732734
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "main:esm_positive": {
+    "formula": "esm_positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week | re: ~ sleep_h_wp",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.043573627534318045,
+      "var[sleep_h_wp]": 0.0010592985298206613,
+      "cov[Group,sleep_h_wp]": 0.00142126245824896,
+      "var[residual]": 0.11102059146495595
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "main:esm_tired": {
+    "formula": "esm_tired ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week | re: ~ sleep_h_wp",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.011292034244923418,
+      "var[sleep_h_wp]": 0.00138118636338901,
+      "cov[Group,sleep_h_wp]": -0.0026156825767576788,
+      "var[residual]": 0.08460965733730931
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "lagged_outcome:esm_stress": {
+    "formula": "esm_stress ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + esm_stress_lag1_wp | re: ~ sleep_h_wp",
+    "n_obs": 1515,
+    "n_persons": 52,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.009552029945759773,
+      "var[sleep_h_wp]": 0.00043981453545971526,
+      "cov[Group,sleep_h_wp]": -0.0006579680563621163,
+      "var[residual]": 0.052806204613464226
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "gee_ar1:esm_stress": {
+    "formula": "esm_stress ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "working_corr": 0.34158630175905763
+    },
+    "notes": []
+  },
+  "lagged_outcome:esm_positive": {
+    "formula": "esm_positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + esm_positive_lag1_wp | re: ~ sleep_h_wp",
+    "n_obs": 1515,
+    "n_persons": 52,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.04664921958444335,
+      "var[sleep_h_wp]": 0.0007168935065259996,
+      "cov[Group,sleep_h_wp]": -0.00011968675378327227,
+      "var[residual]": 0.10518840210264649
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "gee_ar1:esm_positive": {
+    "formula": "esm_positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "working_corr": 0.6713651913567428
+    },
+    "notes": []
+  },
+  "lagged_outcome:esm_tired": {
+    "formula": "esm_tired ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + esm_tired_lag1_wp | re: ~ sleep_h_wp",
+    "n_obs": 1515,
+    "n_persons": 52,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.010462922332737823,
+      "var[sleep_h_wp]": 0.001305779074490649,
+      "cov[Group,sleep_h_wp]": -0.0031143570511891574,
+      "var[residual]": 0.08199951060427457
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "gee_ar1:esm_tired": {
+    "formula": "esm_tired ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week",
+    "n_obs": 1649,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "working_corr": 0.2069079378696725
+    },
+    "notes": []
+  },
+  "reverse:esm_stress->sleep": {
+    "formula": "sleep_h_lead1 ~ esm_stress_wp + esm_stress_bp + sleep_h_wp + steps_k_wp + steps_k_bp + weekend_night + study_week",
+    "n_obs": 1515,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.46071095905789256,
+      "var[residual]": 1.415907380893707
+    },
+    "notes": [
+      "random slope ~ esm_stress_wp dropped: singular random-effects covariance (|corr| = 1.00); refit with random intercept only"
+    ]
+  },
+  "reverse:esm_stress->efficiency": {
+    "formula": "sleep_eff10_lead1 ~ esm_stress_wp + esm_stress_bp + sleep_eff10_wp + steps_k_wp + steps_k_bp + weekend_night + study_week",
+    "n_obs": 1515,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.3653323164911384,
+      "var[residual]": 0.09246784238303596
+    },
+    "notes": []
+  },
+  "reverse:esm_positive->sleep": {
+    "formula": "sleep_h_lead1 ~ esm_positive_wp + esm_positive_bp + sleep_h_wp + steps_k_wp + steps_k_bp + weekend_night + study_week",
+    "n_obs": 1515,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.4631094470981301,
+      "var[residual]": 1.4166014813369072
+    },
+    "notes": [
+      "random slope ~ esm_positive_wp dropped: singular random-effects covariance (|corr| = 1.00); refit with random intercept only"
+    ]
+  },
+  "reverse:esm_positive->efficiency": {
+    "formula": "sleep_eff10_lead1 ~ esm_positive_wp + esm_positive_bp + sleep_eff10_wp + steps_k_wp + steps_k_bp + weekend_night + study_week",
+    "n_obs": 1515,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.36434564323687035,
+      "var[residual]": 0.09276749331845827
+    },
+    "notes": []
+  },
+  "moderation:esm_stressxipip_neuroticism_z": {
+    "formula": "esm_stress ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + ipip_neuroticism_z + sleep_h_wp:ipip_neuroticism_z | re: ~ sleep_h_wp",
+    "n_obs": 1394,
+    "n_persons": 44,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.012609712332724758,
+      "var[sleep_h_wp]": 3.465974162044966e-05,
+      "cov[Group,sleep_h_wp]": 0.000508712386476952,
+      "var[residual]": 0.05437277600565516
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "moderation:esm_positivexipip_neuroticism_z": {
+    "formula": "esm_positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + ipip_neuroticism_z + sleep_h_wp:ipip_neuroticism_z | re: ~ sleep_h_wp",
+    "n_obs": 1394,
+    "n_persons": 44,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.0413041546393821,
+      "var[sleep_h_wp]": 0.000812760170112595,
+      "cov[Group,sleep_h_wp]": 0.00026791632562256807,
+      "var[residual]": 0.10997933621911737
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "moderation:esm_stressxstai_mean_z": {
+    "formula": "esm_stress ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + stai_mean_z + sleep_h_wp:stai_mean_z | re: ~ sleep_h_wp",
+    "n_obs": 1485,
+    "n_persons": 47,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.009454649275797467,
+      "var[sleep_h_wp]": 0.0003464062961163352,
+      "cov[Group,sleep_h_wp]": 0.00035633408701684694,
+      "var[residual]": 0.05918095501298599
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "moderation:esm_positivexstai_mean_z": {
+    "formula": "esm_positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week + stai_mean_z + sleep_h_wp:stai_mean_z | re: ~ sleep_h_wp",
+    "n_obs": 1485,
+    "n_persons": 47,
+    "converged": true,
+    "random": {
+      "var[Group]": 0.04670949347744486,
+      "var[sleep_h_wp]": 0.0009300524038973617,
+      "cov[Group,sleep_h_wp]": 0.0012560501071377144,
+      "var[residual]": 0.10953716732331636
+    },
+    "notes": [
+      "The MLE may be on the boundary of the parameter space."
+    ]
+  },
+  "compliance GEE A: wear time": {
+    "formula": "answered ~ wear_h_lag1_wp4 + wear_h_lag1_bp4 + weekend + study_week + C(slot, Treatment('morning'))",
+    "n_obs": 11348,
+    "n_persons": 63,
+    "converged": true,
+    "random": {
+      "working_corr": NaN
+    },
+    "notes": []
+  },
+  "compliance BayesMixedGLM A: wear time": {
+    "formula": "answered ~ wear_h_lag1_wp4 + wear_h_lag1_bp4 + weekend + study_week + C(slot, Treatment('morning'))",
+    "n_obs": 11348,
+    "n_persons": 63,
+    "converged": true,
+    "random": {
+      "sd[person intercept]": 2.0410471887555968
+    },
+    "notes": [
+      "variational Bayes approximation; 'p' is a normal approximation"
+    ]
+  },
+  "compliance GEE B: + steps, sleep (valid days)": {
+    "formula": "answered ~ wear_h_lag1_wp4 + wear_h_lag1_bp4 + weekend + study_week + C(slot, Treatment('morning')) + steps_k_lag1_wp + steps_k_lag1_bp + sleep_h_wp + sleep_h_bp",
+    "n_obs": 6629,
+    "n_persons": 56,
+    "converged": true,
+    "random": {
+      "working_corr": NaN
+    },
+    "notes": []
+  },
+  "compliance BayesMixedGLM B: + steps, sleep (valid days)": {
+    "formula": "answered ~ wear_h_lag1_wp4 + wear_h_lag1_bp4 + weekend + study_week + C(slot, Treatment('morning')) + steps_k_lag1_wp + steps_k_lag1_bp + sleep_h_wp + sleep_h_bp",
+    "n_obs": 6629,
+    "n_persons": 56,
+    "converged": true,
+    "random": {
+      "sd[person intercept]": 1.9848262505261616
+    },
+    "notes": [
+      "variational Bayes approximation; 'p' is a normal approximation"
+    ]
+  },
+  "prompt-level GEE logit:tense": {
+    "formula": "tense ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week",
+    "n_obs": 3787,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "working_corr": 0.06411934809446078
+    },
+    "notes": []
+  },
+  "prompt-level GEE logit:positive": {
+    "formula": "positive ~ sleep_h_wp + sleep_h_bp + sleep_eff10_wp + sleep_eff10_bp + sleep_midpoint_h_wp + sleep_midpoint_h_bp + steps_k_lag1_wp + steps_k_lag1_bp + rhr_lag1_wp + rhr_lag1_bp + weekend + study_week",
+    "n_obs": 3787,
+    "n_persons": 53,
+    "converged": true,
+    "random": {
+      "working_corr": 0.12398894353784293
+    },
+    "notes": []
+  }
+}
