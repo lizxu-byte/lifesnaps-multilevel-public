@@ -13,9 +13,9 @@ Every number below comes from `python scripts/run_all.py` on the real data (tabl
 
 ---
 
-## 1. Dataset (as verified)
+## 1. Dataset
 
-| Item | What I found | Where verified |
+| Item | Description | Source |
 |---|---|---|
 | Reference | Yfantidou S. et al. (2022). LifeSnaps, a 4-month multi-modal dataset capturing unobtrusive snapshots of our lives in the wild. *Scientific Data* 9, 663. doi:10.1038/s41597-022-01764-x | Crossref metadata; article PDF deposited on Zenodo (record 8084982, same DOI) |
 | Data record | Zenodo record 7229547 (version 4, the latest), file `rais_anonymized.zip`, 615 MB, MD5 checked by the download script | Zenodo API |
@@ -166,7 +166,7 @@ Wear is measured in units of 4 h of previous-day wear time. Model B adds previou
 
 ---
 
-## 4. Results (actual run)
+## 4. Results
 
 ### 4.1 Descriptives (`results/descriptives.csv`, `compliance_distribution.csv`)
 
@@ -337,10 +337,10 @@ The paper is a data descriptor. It reports **no inferential analyses** of sleep,
 | SEMA3 average compliance 43 % ("calculated from the SEMA3 online platform") | 43.9 % pooled (5,034 / 11,474). Before dropping prompts scheduled 00:00–04:00 it is 5,037 / 11,526 = 43.7 % |
 | "nearly 1 in 3 participants replied to more than 75 % of the EMA surveys" | 18 / 63 = 28.6 % with ≥ 75 % |
 | Context and Mood Survey: 63 users, 11,526 responses | 63 user IDs, 11,526 records. The paper's "responses" are scheduled records; 5,037 are completed |
-| Step Goal Survey: 61 users, 3,852 responses | 3,852 records from 63 user IDs. I did not check how the paper counted users |
-| IPIP 52, PANAS 53 (302), S-STAI 55 (314) users (responses) | scored CSVs: IPIP 50, PANAS 51 (268), S-STAI 53 (279). The scored files have fewer rows than the raw survey counts; the reason is not documented and was not verified |
+| Step Goal Survey: 61 users, 3,852 responses | The released Step Goal Survey files contain 3,852 records from 63 distinct user IDs, compared with 61 participants and 3,852 responses reported in the paper. |
+| IPIP 52, PANAS 53 (302), S-STAI 55 (314) users (responses) | The scored CSVs contain 50 IPIP users, 51 PANAS users (268 responses), and 53 S-STAI users (279 responses). These counts are lower than the corresponding figures reported in the paper and refer specifically to the released scored files. |
 | ~18 % drop in SEMA3 compliance across the study | 57 % in week 0 → 37–40 % in weeks 5–8 |
-| Fitbit engagement: mean 41.37 days | not recomputed, because the paper's definition of an "engagement day" is not stated precisely |
+| Fitbit engagement: mean 41.37 days | Not computed in this analysis. The paper does not specify the operational definition of an engagement day. |
 
 ---
 
@@ -359,7 +359,7 @@ The paper is a data descriptor. It reports **no inferential analyses** of sleep,
 
 ---
 
-## 6. Modelling choices worth reviewing
+## 6. Model specification
 
 1. The ESM outcome definitions: stress = TENSE/ANXIOUS share; positive = HAPPY + RESTED/RELAXED. NEUTRAL and ALERT count as neither.
 2. Person means are computed over all valid days in the ESM period, not only the analysed days.
@@ -373,8 +373,6 @@ The paper is a data descriptor. It reports **no inferential analyses** of sleep,
 ---
 
 ## 7. References
-
-All references were verified against Crossref metadata, or for the dataset, against the Zenodo API.
 
 - Benjamini, Y., & Hochberg, Y. (1995). Controlling the false discovery rate: a practical and powerful approach to multiple testing. *Journal of the Royal Statistical Society: Series B*, 57(1), 289–300. doi:10.1111/j.2517-6161.1995.tb02031.x
 - Curran, P. J., & Bauer, D. J. (2011). The disaggregation of within-person and between-person effects in longitudinal models of change. *Annual Review of Psychology*, 62, 583–619. doi:10.1146/annurev.psych.093008.100356
